@@ -11,10 +11,9 @@ void powerset(string str)
     {
         for(int j=0; j<n; j++)
         {
-            if(count & (1<<j) !=0)
+            if((count & (1<<j)) !=0)
             {
                 cout<<str[j];
-                break;
             }
         }
         cout<<"\n";

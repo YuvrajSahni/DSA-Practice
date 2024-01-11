@@ -5,11 +5,11 @@ void bit(int n, int k)
 {
     if(((n>>(k-1)) & 1)==1)
     {
-        cout<<"Yes";
+        cout<<"Yes!!";
     }
     else
     {
-        cout<<"No";
+        cout<<"No!!";
     }
     
 }

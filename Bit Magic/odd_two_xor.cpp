@@ -15,7 +15,7 @@ int main()
     {
         Xor = Xor^arr[i];
     }
-    int sn = Xor & ~(Xor-1);
+    int sn = Xor & (~(Xor-1));
     for(int i=0; i<n; i++)
     {
         if((arr[i] & sn)!=0)
