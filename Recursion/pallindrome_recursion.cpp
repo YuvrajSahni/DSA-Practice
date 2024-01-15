@@ -14,7 +14,7 @@ int main()
 {
     string x;
     cin>>x;
-    cout<<bool(pal(x,0,x.length()-1));
+    cout<<boolalpha<<pal(x,0,x.length()-1);
     
     return 0;
 }

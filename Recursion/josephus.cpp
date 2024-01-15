@@ -13,6 +13,6 @@ int jos(int n, int k)
 
 int main()
 {
-    cout<<jos(5,2);
+    cout<<jos(5,3);
     return 0;
 }
