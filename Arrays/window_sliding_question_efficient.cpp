@@ -27,7 +27,7 @@ bool window(int arr[], int n, int sum)
 int main()
 {
     int x[]={1,4,20,3,10,5};
-    cout<<window(x,6,10);
+    cout<<boolalpha<<window(x,6,10);
     
     return 0;
 }

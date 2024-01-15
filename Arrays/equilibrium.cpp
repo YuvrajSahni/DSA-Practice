@@ -26,7 +26,7 @@ bool eq(int arr[], int n)
 int main()
 {
     int x[]={3,4,8,-9,20,6};
-    cout<<eq(x,6);
+    cout<<boolalpha<<eq(x,6);
     
     return 0;
 }
