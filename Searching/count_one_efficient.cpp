@@ -30,7 +30,7 @@ int count(int arr[], int n)
 
 int main()
 {
-    int x[]={0,0,0,1,1,1,1};
-    cout<<count(x,7);
+    int x[]={0,0,0,1,1,1,1,1,1};
+    cout<<count(x,9);
     return 0;
 }

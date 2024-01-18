@@ -39,8 +39,8 @@ int majority(int arr[], int n)
 
 int main()
 {
-    int x[]={6,8,4,8,8};
-    cout<<majority(x,5);
+    int x[]={8,8,6,6,6,4,6};
+    cout<<majority(x,7);
     
     return 0;
 }

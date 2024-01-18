@@ -26,7 +26,7 @@ int peak(int arr[], int n)
 
 int main()
 {
-    int x[]={10,20,15,5,23,90,97};
+    int x[]={10,20,15,5,23,90,67};
     cout<<peak(x,7);
     
     return 0;

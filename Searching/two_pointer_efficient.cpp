@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool two(int arr[], int n, int x)
+void two(int arr[], int n, int x)
 {
     int left=0;
     int right=n-1;
@@ -9,7 +9,7 @@ bool two(int arr[], int n, int x)
     {
         if(arr[left]+arr[right]==x)
         {
-            return true;
+            break;
         }
         else if(arr[left]+arr[right]>=x)
         {
@@ -21,13 +21,13 @@ bool two(int arr[], int n, int x)
         }
     }
     cout<<left<<endl<<right;
-    return false;
+    //return false;
 }
 
 int main()
 {
     int x[]={3,5,9,2,8,10,11};
-    cout<<two(x,7,17);
+    two(x,7,17);
 
     return 0;
 }

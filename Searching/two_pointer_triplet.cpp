@@ -22,7 +22,7 @@ bool two(int arr[], int n, int x)
 int main()
 {
     int x[]={2,3,4,8,9,20,40};
-    cout<<two(x,7,32);
+    cout<<boolalpha<<two(x,7,32);
     
     return 0;
 }
