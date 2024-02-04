@@ -1,4 +1,4 @@
-for(int j=0;j<n;i++)
-    {
-        cout<<arr[j]<<" ";
-    }
+// for(int i=0;i<n;i++)
+    // {
+    //     cout<<arr[i]<<" ";
+    // }
