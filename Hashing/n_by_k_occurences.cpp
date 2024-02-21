@@ -9,7 +9,7 @@ void count(int arr[], int n, int k)
     int i=1, count=1;
     while(i<n)
     {
-        while(arr[i]=arr[i-1])
+        while(i<n && arr[i]==arr[i-1])
         {
             count++;
             i++;

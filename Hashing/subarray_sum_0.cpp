@@ -22,7 +22,7 @@ bool sub_sum(int arr[], int n)
 int main()
 {
     int x[]={1,4,13,-3,-10,5};
-    cout<<sub_sum(x,6);
+    cout<<boolalpha<<sub_sum(x,6);
     
     return 0;
 }

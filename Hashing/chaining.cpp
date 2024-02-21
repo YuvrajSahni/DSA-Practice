@@ -38,7 +38,7 @@ int main()
     mh.insert(20);
     mh.insert(15);
     mh.insert(7);
-    cout << mh.search(10) << endl;
+    cout << boolalpha<<mh.search(10) << endl;
     mh.remove(15);
-    cout << mh.search(15);
+    cout <<boolalpha<< mh.search(15);
 } 
