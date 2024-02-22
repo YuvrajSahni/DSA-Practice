@@ -10,6 +10,6 @@ bool palindrome(string str)
 
 int main()
 {
-    cout<<palindrome("ABCDCBA");
+    cout<<boolalpha<<palindrome("ABCDCBA");
     return 0;
 }

@@ -17,7 +17,7 @@ bool palindrome(string &str)
 int main()
 {
     string s="ABCDCBA";
-    cout<<palindrome(s);
+    cout<<boolalpha<<palindrome(s);
     
     return 0;
 }

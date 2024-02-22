@@ -33,7 +33,7 @@ void search(string text, string pat)
 
 int main()
 {
-    cout<<"Pattern found at index: "<<endl;
+    cout<<"Pattern found at index: ";
     search("ABCEABEFABCD","ABCD");
     
     return 0;
