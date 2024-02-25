@@ -1,16 +1,6 @@
-Node* newNode; 
-	Node* head1 = new Node(5); 
-	Node* head2 = new Node(9); 
-	newNode = new Node(8); 
-	head2->next = newNode; 
-	newNode = new Node(7); 
-	head2->next->next = newNode; 
-	newNode = new Node(10); 
-	head1->next = newNode; 
-	head2->next->next->next = newNode; 
-	newNode = new Node(12); 
-	head1->next->next = newNode;
-	newNode = new Node(15); 
-	head1->next->next->next = newNode;
-	head1->next->next->next->next = NULL; 
-	cout <<intersection(head1, head2);
+
+    Node*temp=head;
+    while(temp!=NULL)
+    {
+        cout<<temp->data<<" ";
+    

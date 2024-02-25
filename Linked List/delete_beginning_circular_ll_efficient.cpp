@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct Node
@@ -27,14 +27,14 @@ void display(Node *head)
     cout<<temp->data;
 }
 
-Node* remove(Node *head)
+Node* del(Node *head)
 {
     
     if(head==NULL)
     {
         return NULL;
     }
-    if(head->next=NULL)
+    if(head->next==head)
     {
         delete head;
         return NULL;
@@ -53,7 +53,7 @@ int main()
     head->next->next=new Node(30);
     head->next->next->next=new Node(40);
     head->next->next->next->next=head;
-    head=remove(head);
+    head=del(head);
     display(head);
    
     return 0;

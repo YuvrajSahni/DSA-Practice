@@ -30,26 +30,24 @@ void display(Node *head)
 Node* remove(Node *head)
 {
     Node*temp=head;
-    Node*temp1=head;
+    // Node*temp1=head;
 
     if(head==NULL)
     {
         return NULL;
     }
-    if(head->next=NULL)
+    if(head->next==head)
     {
         delete head;
         return NULL;
     }
-    head=temp->next;
-    head->next=NULL;
-    while(temp1->next!=head)
+    while(temp->next!=head)
     {
-        temp1=temp1->next;
+        temp=temp->next;
     }
-    temp1->next=head;
-    delete temp;
-    return head;
+    temp->next=head->next;
+    delete head;
+    return (temp->next);
 }
 
 int main()

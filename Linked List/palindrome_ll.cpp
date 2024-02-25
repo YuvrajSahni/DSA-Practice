@@ -47,9 +47,9 @@ int main()
     Node*head=new Node('R');
     head->next=new Node('A');
     head->next->next=new Node('D');
-    head->next->next->next=new Node('D');
-    head->next->next->next->next=new Node('A');
-    head->next->next->next->next->next=new Node('R');
+    head->next->next->next=new Node('A');
+    head->next->next->next->next=new Node('R');
+    //head->next->next->next->next->next=new Node('R');
     display(head);
     cout<<endl;
     cout<<boolalpha<<palindrome(head);

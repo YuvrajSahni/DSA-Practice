@@ -43,7 +43,7 @@ int main()
     head->next=new Node(15);
     head->next->next=new Node(12);
     head->next->next->next=new Node(20);
-    // head->next->next->next->next=head->next;
+    head->next->next->next->next=head->next;
     cout<<boolalpha<<loop(head);
        
     return 0;
