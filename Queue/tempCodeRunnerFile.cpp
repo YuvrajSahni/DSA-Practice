@@ -1,3 +1,1 @@
-q.deque();
-    // q.deque();
-    // q.enqueue(50);
+q.push(x);
