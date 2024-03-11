@@ -59,15 +59,15 @@ int isBST(Node* root)
     {
         return 1;
     }
-    if(root->left!=NULL && max_value(root->left)>root->key)
+    if(root->left!=NULL && max_value(root->left) > root->key)
     {
         return 0;
     }
-    if(root->right!=NULL && min_value(root->right)>root->key)
+    if(root->right!=NULL && min_value(root->right) < root->key)
     {
         return 0;
     }
-    if(!isBST(root->left) || isBST(root->right))
+    if(!isBST(root->left) || !isBST(root->right))
     {
         return 0;
     }
@@ -81,7 +81,12 @@ int main()
     root->right=new Node(20);
     root->right->left=new Node(13);
     root->right->right=new Node(24);
-    cout<<isBST(root);
+    if(isBST(root)){
+        cout<<"Is BST";
+    }
+    else{
+        cout<<"Not a BST";
+    }
 
     return 0;
 }

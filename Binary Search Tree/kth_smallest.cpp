@@ -35,10 +35,11 @@ int main()
     root->left=new Node(20);
     root->right=new Node(100);
     root->left->left=new Node(10);
-    root->left->right=new Node(40);
+    //root->left->right=new Node(40);
     root->right->left=new Node(70);
     root->right->right=new Node(120);
     root->right->left->left=new Node(60);
+    root->right->left->left->left=new Node(55);
     kth(root,3);
 
     return 0;
