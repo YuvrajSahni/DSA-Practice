@@ -14,12 +14,14 @@ void spiral(int arr[R][C])
             cout<<arr[top][i]<<" ";
         }
         top++;
+        cout<<endl;
 
         for(int i=top;i<=bottom;i++)
         {
             cout<<arr[i][right]<<" ";
         }
         right--;
+        cout<<endl;
 
         if(top<=bottom)
         {
@@ -28,6 +30,7 @@ void spiral(int arr[R][C])
                 cout<<arr[bottom][i]<<" "; 
             }
         bottom--;
+        cout<<endl;
         }
 
         if(left<=right)
@@ -37,6 +40,7 @@ void spiral(int arr[R][C])
                 cout<<arr[i][left]<<" ";            
             }
         left++;
+        cout<<endl;
         }
     }
 }
