@@ -1,1 +1,1 @@
-for solution in solutions:
+Color can be\n
