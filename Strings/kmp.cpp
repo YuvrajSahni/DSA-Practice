@@ -66,6 +66,6 @@ void kmp(string pat, string text)
 
 int main()
 {
-    kmp("ababa","ababcababaad");
+    kmp("AAAA","AAAAAAAAAA");
     return 0;
 }
